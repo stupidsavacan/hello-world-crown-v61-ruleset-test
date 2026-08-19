@@ -1,5 +1,7 @@
 # hello-world
 
+Crown V6.1 randomized integration test marker.
+
 This repository is currently governed by **Retirement Guard v6** and is converging to a README-only end state.
 
 ## LoopDeck status
