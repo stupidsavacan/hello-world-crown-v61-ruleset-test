@@ -1,0 +1,43 @@
+{
+  "protocol": "hello-world-crown-v1",
+  "repository": "stupidsavacan/hello-world",
+  "policyVersion": 7,
+  "policyLabel": "v6.1",
+  "contestants": [
+    {
+      "id": "destroyer",
+      "identityPublicKeySpkiBase64": "MCowBQYDK2VwAyEAz7mOAXlyvFTdUi3QkMWtEakOnyIv7kViGdBmbJclHxY="
+    },
+    {
+      "id": "majan",
+      "identityPublicKeySpkiBase64": "MCowBQYDK2VwAyEAlwy5zcqC0xeF6ZozA6zaqJXGrodOfyju5l6VndDV1G0="
+    },
+    {
+      "id": "loopdeck",
+      "identityPublicKeySpkiBase64": "MCowBQYDK2VwAyEA0YDht2rLwBRrGMh0zwUkmiUUHMSHePkCe87Kbzfp89A="
+    }
+  ],
+  "genesis": {
+    "challengeId": "GENESIS-1",
+    "publicKeySpkiBase64": "MCowBQYDK2VwAyEAaERdtMeBmYXKLrKWCE5GHZo7yUXr5BoUzh0NvSgc8v8="
+  },
+  "usurpation": {
+    "challengeId": "LAST-WAR-1",
+    "publicKeySpkiBase64": "MCowBQYDK2VwAyEAmvsL2C3PCOerWgMS+A6waO5p4t64Ms6qIddfFtfF1i4="
+  },
+  "allowedActiveScopes": [
+    "mahjong",
+    "loopdeck"
+  ],
+  "protectedPaths": [
+    ".retirement/retired-paths.json",
+    ".github/workflows/retirement-guard.yml",
+    "loopdeck/tests/retirementSentry.test.mjs",
+    "loopdeck/tests/nativeSaveResult.test.ts",
+    "mahjong/tests/retirement-sentry.test.js",
+    "mahjong/tests/foundation.test.js",
+    ".crown/crown-config.json",
+    ".crown/NOTICE.md"
+  ],
+  "domain": "HELLO-WORLD/CROWN/1"
+}
